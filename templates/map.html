@@ -48,7 +48,6 @@
       <!-- NAV -->
       <nav id="nav" class="visible">
 
-	<hr width="100%">
     <h3>Si no carga el mapa, recarga la pagina.</h3>
   			<p>
   				<a href="https://pokeradar-guaymas.herokuapp.com/">Guaymas</a>
@@ -66,6 +65,7 @@
   				<a href="https://pokeradar-guaymassur.herokuapp.com/">Guaymas Sur</a>
   			</p>
   			<p>Selecciona lo que quieres ver en el mapa.</p>
+        	<hr width="100%">
         <div class="form-control switch-container">
           <h3>Pokémon</h3>
           <div class="onoffswitch">
@@ -113,35 +113,15 @@
           </div>
         </div>
         <div class="form-control switch-container">
-          <h3>Iconos</h3>
-          <select name="pokemon-icons" id="pokemon-icons"></select>
-        </div>
-        <div class="form-control switch-container">
-          <h3>Tamaño</h3>
+          <h3>Tamaño de iconos</h3>
           <select name="pokemon-icon-size" id="pokemon-icon-size">
-            <option value="-8">Small</option>
+            <option value="-8">Pequeño</option>
             <option value="0">Normal</option>
-            <option value="10">Large</option>
-            <option value="20">X-Large</option>
+            <option value="10">Grande</option>
+            <option value="20">Muy grande</option>
           </select>
         </div>
         <hr width="100%">
-        <div class="form-control">
-          <label for="exclude-pokemon">
-            <h3>No mostrar estos Pokémon</h3>
-            <div style="max-height:165px;overflow-y:auto";>
-              <select id="exclude-pokemon" multiple="multiple"></select>
-            </div>
-          </label>
-        </div>
-        <div class="form-control">
-          <label for="notify-pokemon">
-            <h3>Notificarme de estos Pokémon</h3>
-            <div style="max-height:165px;overflow-y:auto";>
-              <select id="notify-pokemon" multiple="multiple"></select>
-            </div>
-          </label>
-        </div>
         <!-- <div class="form-control switch-container">
           <h3>Notify with sound</h3>
           <div class="onoffswitch">
